@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="./output.css" rel="stylesheet">
+  
 </head>
 
-<!-- important npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+<!-- important npx tailwindcss -i ./src/input.css -o ./output.css --watch -->
 
-<body class="font-Poppins max-w-480 bg-red-100"> 
-  <nav class="max-w-292.5 bg-green-200 m-auto flex justify-between items-center mt-5 rounded-lg">
+<body class=" font-Poppins max-w-480 bg-red-100 m-auto"> 
+  <nav class="font-Poppins max-w-292.5 bg-green-200 m-auto flex justify-between items-center mt-5 rounded-lg">
     <div>
       <img src="images/logo2.png" alt="brand-logo">
 
@@ -32,6 +33,43 @@
     </div>
 
   </nav>
+<!-- bg-linear-to-b from-[#111111] to-[#00808080] -->
+
+  <section class=" flex h-[550px] bg-[url(images/banner.png)] bg-no-repeat  max-w-292.5  bg-cover bg-center m-auto mt-12.5">
+    <div class=" border-green-500 max-w-173 h-85.5 text-white text-center  items-center m-auto ">
+      <p class="font-Garamond text-7xl">We Provide Effective <br>Legal Solutions</p>
+      <p class="text-[#E7E7E7] mt-6 mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div>
+        <input class=" px-4 placeholder-gray-400 bg-amber-50 w-125 h-16 mr-6 rounded-lg" type="search" placeholder="Search your services" name="" id="">
+        <button class="cursor-pointer  w-37.5 bg-[#f0911d] hover:bg-cyan-700 h-16 text-[18px] text-white font-semibold rounded-lg">Search</button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="bg-blue-300 max-w-292.5 h-285 m-auto mt-30 mb-32 ">
+    <div class="max-w-178.5 h-32 bg-fuchsia-800 m-auto text-center mb-16">
+      <h1 class="font-Garamond text-[40px] font-extrabold">The Legal Practice Area</h1>
+      <p class="text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+    </div>
+
+    <div class="max-w-292.5 h-249.5 bg-lime-500 grid grid-cols-3">
+      
+      <div class="max-w-97.5 h-124.75 bg-purple-800 pt-14 px-16.5 pb-17.5 flex flex-col items-center justify-center">
+      <img class="mb-8" src="/images/business.png" alt="">
+      <h1 class="mb-6 font-Garamond font-extrabold text-[32px] text-[#414040]">Business Law</h1>
+      <p class="text-center mb-8 text-[#707070] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <img  src="images/Frame.png" alt="">
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+
 
 
 
